@@ -1,4 +1,4 @@
-<?php // $id$
+<?php
 ////////////////////////////////////////////////////////////////////////
 //  jmol plugin filtering for viewing molecules online
 // 
@@ -14,6 +14,8 @@
 //  Filter written by Dan Stowell and updated by Geoffrey Rowland.
 //
 ////////////////////////////////////////////////////////////////////////
+
+defined('MOODLE_INTERNAL') || die();
 
 /// This is the filtering function itself.  It accepts the 
 /// courseid and the text to be filtered (in HTML form).
